@@ -1,6 +1,10 @@
+// ********** Interface **********
+
 interface Product {
   operation(): string;
 }
+
+// ********** Abstract class **********
 
 abstract class Creator {
   public abstract factoryMethod(): Product;
@@ -10,6 +14,8 @@ abstract class Creator {
     return `Creator: The same creator's code has just worked with ${product.operation()}`;
   }
 }
+
+// ********** Factories **********
 
 class ConcreteCreator1 extends Creator {
   public factoryMethod(): Product {
@@ -23,6 +29,8 @@ class ConcreteCreator2 extends Creator {
   }
 }
 
+// ********** Products **********
+
 class ConcreteProduct1 implements Product {
   public operation(): string {
     return '{Result of the ConcreteProduct1}';
@@ -34,6 +42,8 @@ class ConcreteProduct2 implements Product {
     return '{Result of the ConcreteProduct2}';
   }
 }
+
+// ----------------- Example -------------------
 
 function clientCode(creator: Creator) {
   // ...
