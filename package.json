@@ -1,0 +1,25 @@
+{
+  "name": "gof23_design_patterns_typescript",
+  "version": "1.0.0",
+  "description": "- Creational",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriiZil/gof23_design_patterns_typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriiZil/gof23_design_patterns_typescript/issues"
+  },
+  "homepage": "https://github.com/AndriiZil/gof23_design_patterns_typescript#readme",
+  "devDependencies": {
+    "nodemon": "2.0.20",
+    "ts-node": "10.9.1",
+    "typescript": "4.8.3"
+  }
+}
