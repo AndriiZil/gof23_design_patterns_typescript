@@ -37,11 +37,7 @@ class ConcreteImplementationB implements Implementation {
 // ***************** Implementation *******************
 
 function clientCode(abstraction: Abstraction) {
-  // ..
-
   console.log(abstraction.operation());
-
-  // ..
 }
 
 let implementation = new ConcreteImplementationA();

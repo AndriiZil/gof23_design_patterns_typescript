@@ -55,20 +55,12 @@ class Composite extends Component {
   }
 }
 
-/**
- * The client code works with all of the components via the base interface.
- */
+// ****************** Realization *********************
+
 function clientCode(component: Component) {
-  // ...
-
   console.log(`RESULT: ${component.operation()}`);
-
-  // ...
 }
 
-/**
- * This way the client code can support the simple leaf components...
- */
 const simple = new Leaf();
 
 console.log('Client: I\'ve got a simple component:');

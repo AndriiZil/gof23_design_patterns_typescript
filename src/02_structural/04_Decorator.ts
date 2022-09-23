@@ -28,6 +28,8 @@ class ConcreteDecoratorB extends Decorator {
   }
 }
 
+// ****************** Realization *********************
+
 function clientCode(component: Component) {
   console.log(`RESULT: ${component.operation()}`);
 }
