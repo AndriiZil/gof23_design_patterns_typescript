@@ -2,5 +2,5 @@
   "watch": ["src"],
   "ext": "ts,json",
   "ignore": ["src/**/*.spec.ts"],
-  "exec": "ts-node ./src/02_structural/07_Proxy.ts"
+  "exec": "ts-node ./src/03_behavioral/10_Visitor.ts"
 }
